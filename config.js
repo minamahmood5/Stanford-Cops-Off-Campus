@@ -1,12 +1,14 @@
+// To get location coordinates: https://docs.mapbox.com/help/getting-started/geocoding/
+
 var config = {
     accessToken: 'pk.eyJ1IjoiY2dpYW1hcmlubyIsImEiOiJjanAyd2hwNWUwYnJ3M3dzMHF4MnJkZ29uIn0.7tLnplw65tLmywvvIPGSKA',
     style: 'mapbox://styles/cgiamarino/ckkhzxru60efv17nah357bvz6',
     theme: 'light',
     alignment: 'left',
-    toptitle: 'UCLA Cops off Campus Map',
-    title: 'UCLA Cops off Campus Tour Map',
-    byline: 'Institute on Inequality and Democracy, Organized 2016',
-    description: 'In 1969, Black, Indigenous, and People of Color (BIPOC) students at UCLA and across the country demanded that their universities confront racial inequity and systemic injustices. At UCLA, this movement led to the creation of our Ethnic Studies Research Centers, amongst other advances towards confronting the historically white UC system. </br></br>Now, over 50 years later, BIPOC students at UCLA and allied abolitionists are again speaking out against systemic racism—in order to get <em>Cops Off Campus</em>. At UCLA, the Cops Off Campus movement has been inspired largely by actions of both the COLA (Cost of Living Adjustment) movement led by graduate student workers in 2019 and the Black Lives Matter uprisings of 2020. At UCLA, additional anti-carceral groups include Cops Off Campus, No UCPD, the Divest/Invest Faculty Collective, Prison Education Program, Underground Scholars Initiative, Million Dollar Hoods at the Ralph J. Bunche Center for African American Studies, the Criminal Justice Program at UCLA Law, and more.</br></br> Imagining the UC system without a dedicated police department is not difficult, given that the University of California Police Department (UCPD) was only created in 1947 at UC Berkeley, before eventually expanding to other campuses. Police presence on UC campuses is no different from other spaces in the way it reproduces systemic racism. A 2018 Daily Bruin analysis found that UCPD activity disproportionately targeted Black and Latinx people in Westwood, where Black people comprise a mere 2 percent of the resident population, and Latinx people 7 percent. However, nearly 29 percent of UCPD suspicious activity stops from July 2015 to June 2016 were of Black people, while Latinx people made up 10.5 percent of stops.</br></br>We believe that one of the first steps towards abolishing UCPD is to map sites of carceral violence on campus. In this mapping, we seek to disrupt the university&#8217;s complicity with carceral violence, and demand the abolition of the UCPD and investment in COLA, racial equity, and social services on campus instead of funding the police.</br></br>A simple map of the UCLA campus cannot express the depth of the UC&#8217;s academic, financial, and political complicity with police and policing. As you look at this map, please keep this in mind: <h5 class="tab">(1) Academia generally has long been a site of carceral violence that reproduces punitive, surveillance, and racist frameworks. Each department and discipline on campus can be mapped for the ways that it perpetuates the logic of the police state, in manners that have material consequences for Los Angeles and the world.</h5><h5 class="tab">(2) UCLA, as a campus, is not confined to Westwood but is a real estate enterprise that acquires or contracts land and buildings throughout Southern California, from UCLA Conference Center in Lake Arrowhead to Harbor-UCLA Medical Center in Carson, and so much more.</h5></br></br>',
+    toptitle: 'Stanford Cops off Campus Map',
+    title: 'Stanford Cops off Campus Tour Map',
+    byline: 'Abolish Stanford, 2021',
+    description: 'beep boop description of history of cops on campus ew</h5></br></br>',
     footer: 'Story map by <a href="https://twitter.com/cdgiamarino9" target="_blank">Chris</a> <a href="https://www.instagram.com/cdgiamarino9/?hl=en" target="_blank">Giamarino</a>, <a href="https://scholar.google.com/citations?user=JFjdQ94AAAAJ&hl=en" target="_blank">PhD student</a> in <a href="https://www.linkedin.com/in/cdgiamarino9/" target="_blank">urban planning</a> at UCLA Luskin. Design inspired by <a href="https://pointsunknown.nyc/" target=”_blank”>Points Unknown</a> from their Mapbox Story Map tutorial.',
     footerAttribution: '<a href="https://www.mapbox.com/about/maps/" target="_blank">© Mapbox</a> | <a href="http://www.openstreetmap.org/about/" target="_blank">© OpenStreetMap</a>',
     chapters: [
@@ -14,11 +16,11 @@ var config = {
             id: 'slide-0',
             alignment: 'left',
             hidden: false,
-            title: 'Cops off Campus at UCLA',
-            image: './images/protest-1.jpg',
-            description: 'The UCLA Abolition Map is a growing catalog that aims to pressure our campus to end its legacy of policing students and community. This map will reflect on a portion of the carceral actions of UCLA and continue to build towards a campus and a world without cops.',
+            title: 'Cops off Campus at Stanford',
+            image: './images/cops-off-earth.jpeg',
+            description: 'The Stanford Abolition Map is ...... whee',
             location: {
-                center: [-118.57914, 33.94910],
+                center: [-122.16017550000001,37.42320875 ],
                 zoom: 10.09,
                 pitch: 0,
                 bearing: 0
@@ -55,12 +57,15 @@ var config = {
             id: 'slide-1',
             alignment: 'left',
             hidden: false,
-            title: 'Harbor-UCLA Medical Center, October 6, 2020',
-            image: './images/harbor.jpg',
-            imageCredit: '<a href="https://www.kmdarchitects.com/harbor-ucla" target="_blank">kmd</a>',
-            description: 'A <a href="https://www.lataco.com/ucla-hospital-man-shot/" target="_blank">patient</a> experiencing a psychiatric crisis was shot seven times and killed by a Los Angeles County Sheriff&#8217;s Department deputy. Subsequently, healthcare workers <a href="https://www.latimes.com/california/story/2020-10-13/hosptial-workers-protest-sheriff-violence" target="_blank">protested</a> against police violence in hospitals.',
+            title: 'Ujamaa House, October 6, 2020',
+            image: './images/ujamaa.jpeg',
+            imageCredit: '<a href="https://www.kmdarchitects.com/harbor-ucla" target="_blank">idk</a>',
+            description: 'overpolicing',
             location: {
-                center: [-118.29936, 33.83028],
+                center: [
+                    -122.175904,
+                    37.424684
+                  ],
                 zoom: 15.06,
                 pitch: 0,
                 bearing: 0
